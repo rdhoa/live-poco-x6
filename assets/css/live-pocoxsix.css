@@ -1,0 +1,409 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+font-family: 'Camphor Pro';
+src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
+}
+
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+.footer-base{
+text-align: left;
+font-weight: 300;
+color: #fff;
+padding: 1.5rem;
+width: 80%;
+}
+
+#countdown {
+font-size: 4rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.time-container {
+margin: 10px;
+text-align: center;
+}
+
+.time {
+font-size: 1.5em;
+font-weight: bold;
+color: #f8ce00;
+}
+
+.label {
+font-size: 0.8em;
+color: #ffffff;
+}
+
+.title-yellon{
+color: #f8ce00;
+font-size: 3rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.p-white{
+color: #fff;
+font-size: 1.5rem;
+}
+
+.header-1 {
+background-image: url(../media/01.jpg);
+background-position: 50%;
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 50vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+.logo{
+
+position: relative;
+z-index: 5;
+top: -23rem;
+right: 30rem;
+}
+
+button{border: none;}
+
+footer{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: #191919;
+}
+
+.foot{
+text-align: center;
+color: #fff;
+padding: 1.5rem;
+border: 0;
+border-top: 1px solid rgb(255, 255, 255);
+width: 70%;
+}
+
+#Btn {
+display: none;
+position: fixed;
+bottom: 50px;
+right: 60px;
+z-index: 9999;
+border: none;
+outline: none;
+background-color: #000;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+}
+
+#Btn:hover {
+background-color: #ffd401;
+}
+
+.email {
+align-items: center;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.56vw;
+padding-bottom: 3.2vw;
+}
+
+.p-preto {
+text-align: center;
+}
+
+.title-preto{
+font-weight: 900;
+line-height: 1.1;
+text-align: center;
+}
+
+.section02{
+text-align: center;
+background-color: #f8ce00;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-top: -0.07813rem;
+position: relative;
+z-index: 6;
+}
+
+.grid-box-poco{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+margin-top: 5rem;
+margin-bottom: 5rem;
+padding: 9rem;
+}
+
+
+@media screen and (min-width:1000px) {
+
+img,
+video {
+height: auto;
+max-width: 100%;
+}
+[hidden] {
+display: none;
+}
+
+body, html{
+font-family: 'Camphor Pro';
+}
+
+
+.top-header {
+align-items: center;
+color: #191919;
+display: flex;
+font-size: .94vw;
+font-weight: 400;
+justify-content: space-between;
+line-height: 1.13vw;
+padding: 1.17vw 1.88vw 0 1.17vw;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 9;
+}
+
+.top-header .header-logo {
+background-image: url(https://i05.appmifile.com/events/logos/orange-logo.png);
+background-size: 100%;
+display: inline-block;
+height: 2.34vw;
+width: 2.34vw;
+}
+
+.grid-galeria{
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr;
+background-position: center;
+}
+
+.phone-flex{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+.galeria{
+padding: 7rem;
+}
+
+.header-1 {
+background-image: url(../media/01.jpg);
+background-position: 50%;
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 127.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+.header-1, .header-1-calendar {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.header-1-text {
+align-items: center;
+color: #191919;
+display: flex;
+flex-direction: column;
+}
+.header-1-text-1 {
+background-size: 42.15vw 9.49vw;
+font-size: 1.95vw;
+height: 9.49vw;
+line-height: 2.81vw;
+width: 42.15vw;
+}
+
+.title-preto{
+font-size: 1.88vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+}
+
+.title-preto-phone{
+font-size: 1.88vw;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 23.44vw;  
+color: #f8ce00; 
+}
+
+.p-preto {
+font-size: .94vw;
+margin-top: 0.94vw;
+text-align: center;
+}
+
+.p-preto-phone{
+font-size: .94vw;
+margin-top: 0.94vw;
+text-align: center;
+width: 23.44vw;
+color: #fff;
+}
+
+.section04{
+margin: 0;
+text-align: center;
+margin-bottom: 3..5rem;
+}
+
+.section05{
+text-align: center;
+}
+
+.email {
+align-items: center;
+display: flex;
+flex-direction: column;
+height: auto;
+margin-top: 1.56vw;
+padding-bottom: 3.2vw
+}
+
+.email__title {
+color: #f8ce00;
+font-size: 1.64vw;
+font-weight: 700;
+line-height: 1.2;
+margin: 3.13vw auto 1.41vw;
+text-align: center
+}
+
+.email__content {
+height: 2.5vw;
+position: relative;
+width: 32.03vw
+}
+
+.email__content-text {
+background: #fff;
+border: .04vw solid #e0e0e0;
+border-radius: .63vw;
+box-sizing: border-box;
+color: #191919;
+font-size: .94vw;
+height: 100%;
+line-height: 2.5vw;
+outline: 0;
+padding: .08vw .94vw;
+width: 100%
+}
+
+.email__content-text::placeholder {
+color: #898989
+}
+
+.email__content-btn {
+background: #191919;
+border-radius: 0 .63vw .63vw 0;
+box-sizing: border-box;
+color: #f3f3f3;
+cursor: pointer;
+font-size: .94vw;
+font-weight: 400;
+height: 100%;
+line-height: 1.17vw;
+padding: .59vw 1.56vw;
+position: absolute;
+right: 0;
+text-align: center;
+top: 0
+}
+
+.email .agree-box {
+cursor: pointer;
+margin-top: .78vw;
+text-align: center;
+width: 32.03vw
+}
+
+.email .agree-box .agree-text {
+color: #898989;
+font-size: .63vw;
+font-weight: 400;
+line-height: .74vw
+}
+
+.email .agree-box .agree-link {
+color: #ffd401
+}
+
+.email .common-toast {
+background: #000;
+border-radius: .63vw;
+color: #fff;
+font-size: .94vw;
+font-weight: 400;
+height: 7.85vw;
+left: 50%;
+line-height: 1.13vw;
+opacity: .7;
+padding: .7vw 1.88vw;
+position: absolute;
+text-align: center;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 29.69vw
+}
+
+
+#myBtn-phone{
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+}
+
+#myBtn-phone:hover{
+background-color: #ffd401;
+}
+
+}
