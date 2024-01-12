@@ -48,7 +48,7 @@ font-size: 3rem;
 }
 
 .title-preto-phone{
-font-size: 1.88vw;
+font-size: 3rem;
 font-weight: 700;
 line-height: 1.1;
 text-align: center;
@@ -74,7 +74,7 @@ font-size: 1.5rem;
 }
 
 .p-branco-phone{
-font-size: .94vw;
+font-size: 1.5rem;
 margin-top: 0.94vw;
 text-align: center;
 width: 23.44vw;
@@ -159,14 +159,9 @@ justify-content: center;
 
 .section02{
 text-align: center;
-background-color: #f8ce00;
+background-color: #060f18;
 box-sizing: border-box;
 display: flex;
-flex-direction: column;
-justify-content: flex-start;
-margin-top: -0.07813rem;
-position: relative;
-z-index: 6;
 }
     
 .logo {
@@ -233,7 +228,7 @@ font-weight: 400;
 line-height: .74vw
 }
 
-.email .agree-box .agree-link {color: #ffd401}
+.email .agree-box .agree-link {color: #ffd401; font-size: 0.7rem;}
 
 .footer-base{
 text-align: left;
@@ -249,7 +244,9 @@ color: #fff;
 padding: 1.5rem;
 border: 0;
 border-top: 1px solid rgb(255, 255, 255);
-width: 70%;
+width: 100%;
+font-size: 0.8rem;
+font-weight: 100;
 }
 
 /*****************************Btn/Time*********************************/
