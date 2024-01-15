@@ -80,6 +80,18 @@ text-align: center;
 width: 23.44vw;
 color: #fff;
 }
+
+.txt-social{
+z-index: 10;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+top: 10rem;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+}
     
 /*************************Grid****************************/
 
@@ -114,8 +126,14 @@ justify-content: center;
 align-items: center;
 }
 
-.grid-text-poco{
+.grid-txt-social{
+    position: static;
+    display: block;
 
+    width: 54rem; 
+
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /*********************************************************/
