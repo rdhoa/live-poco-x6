@@ -63,9 +63,17 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 }
 
+.title-white{
+color: #fff;
+font-size: 2rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
 .p-white{
 color: #fff;
 font-size: 1.5rem;
+font-weight:100;
 }
 
 .p-preto {
@@ -95,7 +103,17 @@ max-width: 100%;
 margin: 0 auto;
 gap: 1rem;
 }
-    
+
+.txt-gradiant {
+    background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    width: 57rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /*************************Grid****************************/
 
 .galeria{margin-top: 5rem;}
@@ -114,10 +132,7 @@ flex-wrap: wrap;
 align-content: center;
 justify-content: center;
 align-items: center;
-gap: 1.5rem;
-margin-top: 5rem;
-margin-bottom: 5rem;
-padding: 9rem;
+gap: 2rem;
 }
 
 .phone-flex{
@@ -135,6 +150,36 @@ display: block;
 width: 54rem; 
 margin-bottom: 2rem;
 margin-top: 2rem;
+}
+
+.grid-box-img{
+position: static;
+display: block;
+}
+
+.grid-txt-box{
+z-index: 13;
+position: relative;
+top: 38rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+.grid-txt-box-tree {
+z-index: 14;
+position: relative;
+top: 25rem;
+left: 5rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+text-align: left;
+width: 24rem;
+max-width: 100%;
 }
 
 /*********************************************************/

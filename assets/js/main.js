@@ -18,30 +18,36 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
- // Define a data alvo para o contador regressivo (ano, mês (0-11), dia, horas, minutos, segundos)
-    const targetDate = new Date('2024-01-22T12:00:00').getTime();
+
+    // Define a data alvo para o contador regressivo
+    var countDownDate = new Date("Jan 22, 2024 12:59:00").getTime();
 
     function updateCountdown() {
-      const currentDate = new Date().getTime();
-      const timeDifference = targetDate - currentDate;
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
 
-      if (timeDifference > 0) {
-        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+      if (distance > 0) {
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = formatTime(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+        var minutes = formatTime(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+        var seconds = formatTime(Math.floor((distance % (1000 * 60)) / 1000));
 
         document.getElementById('days').innerHTML = days;
         document.getElementById('hours').innerHTML = hours;
         document.getElementById('minutes').innerHTML = minutes;
         document.getElementById('seconds').innerHTML = seconds;
       } else {
-        document.getElementById('countdown').innerHTML = 'O contador expirou!';
+        document.getElementById('countdown').innerHTML = 'Lançamento';
+        clearInterval(interval);
       }
     }
 
+    function formatTime(time) {
+      return time < 10 ? '0' + time : time;
+    }
+
     // Atualiza o contador a cada segundo
-    setInterval(updateCountdown, 1000);
+    var interval = setInterval(updateCountdown, 1000);
 
     // Chama a função para garantir que o contador é exibido corretamente ao carregar a página
     updateCountdown();
