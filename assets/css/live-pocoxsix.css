@@ -37,6 +37,9 @@ max-width: 100%;
 display: none;
 }
 
+.galeria{
+    display: none;
+}
 
 /*****************************Fonts*********************************/
 
@@ -105,13 +108,13 @@ gap: 1rem;
 }
 
 .txt-gradiant {
-    background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4rem;
-    width: 57rem;
-    text-align: center;
-    margin: 0 auto;
+background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4rem;
+width: 57rem;
+text-align: center;
+margin: 0 auto;
 }
 
 /*************************Grid****************************/
@@ -316,6 +319,7 @@ font-weight: 100;
 
 #countdown {
 font-size: 4rem;
+color: #fff;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;

@@ -19,35 +19,38 @@ function topFunction() {
 }
 
 
-    // Define a data alvo para o contador regressivo
-    var countDownDate = new Date("Jan 22, 2024 12:59:00").getTime();
 
-    function updateCountdown() {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
 
-      if (distance > 0) {
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = formatTime(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
-        var minutes = formatTime(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
-        var seconds = formatTime(Math.floor((distance % (1000 * 60)) / 1000));
+// Define a data alvo para o contador regressivo
+var countDownDate = new Date("Jan 15, 2024 13:42:00").getTime();
 
-        document.getElementById('days').innerHTML = days;
-        document.getElementById('hours').innerHTML = hours;
-        document.getElementById('minutes').innerHTML = minutes;
-        document.getElementById('seconds').innerHTML = seconds;
-      } else {
-        document.getElementById('countdown').innerHTML = 'Lançamento';
-        clearInterval(interval);
-      }
-    }
+function updateCountdown() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
 
-    function formatTime(time) {
-      return time < 10 ? '0' + time : time;
-    }
+  if (distance > 0) {
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = formatTime(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+    var minutes = formatTime(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+    var seconds = formatTime(Math.floor((distance % (1000 * 60)) / 1000));
 
-    // Atualiza o contador a cada segundo
-    var interval = setInterval(updateCountdown, 1000);
+    document.getElementById('days').innerHTML = days;
+    document.getElementById('hours').innerHTML = hours;
+    document.getElementById('minutes').innerHTML = minutes;
+    document.getElementById('seconds').innerHTML = seconds;
+  } else {
+    document.getElementById('countdown').innerHTML = 'Conheça os novos Poco X6';
+    clearInterval(interval);
+    document.getElementById('galeria').style.display = 'block';
+  }
+}
 
-    // Chama a função para garantir que o contador é exibido corretamente ao carregar a página
-    updateCountdown();
+function formatTime(time) {
+  return time < 10 ? '0' + time : time;
+}
+
+// Atualiza o contador a cada segundo
+var interval = setInterval(updateCountdown, 1000);
+
+// Chama a função para garantir que o contador é exibido corretamente ao carregar a página
+updateCountdown();
