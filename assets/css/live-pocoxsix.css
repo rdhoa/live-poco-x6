@@ -37,8 +37,12 @@ max-width: 100%;
 display: none;
 }
 
-.galeria{
+#galeria{
     display: none;
+}
+
+#grid-txt-social{
+    display: block;
 }
 
 /*****************************Fonts*********************************/
@@ -210,18 +214,15 @@ width: 2.34vw;
 }
 
 .section01 {
-background-image: url(../media/01.jpg);
+background-image: url(/assets/media/capa.png);
 background-position: 50%;
 background-size: cover;
 box-sizing: border-box;
 flex-direction: column;
-height: 127.5vw;
+height: 37.5vw;
 padding: 0 8.98vw;
 position: relative;
 width: 100%;
-align-items: center;
-display: flex;
-justify-content: center;
 }
 
 .section02{
@@ -374,4 +375,94 @@ border-radius: 10px;
 
 #Btn:hover {
 background-color: #ffd401;
+}
+
+@media screen and (max-width:920px){
+
+
+a{text-decoration: none; color: #fff;}
+button{border: none;}
+
+footer{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+background-color: #191919;
+}
+
+img,
+video {
+height: auto;
+max-width: 100%;
+}
+[hidden] {
+display: none;
+}
+
+#galeria{display: none;}
+#grid-txt-social{display: block;}
+
+.txt-gradiant {
+background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4rem;
+text-align: center;
+margin: 0 auto;
+width: 100%;
+}
+
+.txt-social {
+z-index: 10;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+top: 50%;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+max-width: 100%;
+margin: 0 auto;
+gap: 1rem;
+}
+
+.section01{
+background-image: url(/assets/media/01-mobile.jpg);
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 178.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+#countdown {
+font-size: 4rem;
+color: #fff;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.time-container {
+margin: 10px;
+text-align: center;
+}
+
+.time {
+font-size: 1.5em;
+font-weight: bold;
+color: #f8ce00;
+}
+
+.label {
+font-size: 0.8em;
+color: #ffffff;
+}
+
 }

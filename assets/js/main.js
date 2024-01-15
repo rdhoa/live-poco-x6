@@ -20,9 +20,8 @@ function topFunction() {
 
 
 
-
 // Define a data alvo para o contador regressivo
-var countDownDate = new Date("Jan 15, 2024 13:42:00").getTime();
+var countDownDate = new Date("Jan 15, 2024 17:02:00").getTime();
 
 function updateCountdown() {
   var now = new Date().getTime();
@@ -39,9 +38,10 @@ function updateCountdown() {
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
   } else {
-    document.getElementById('countdown').innerHTML = 'Conheça os novos Poco X6';
+    document.getElementById('countdown').innerHTML = '';
     clearInterval(interval);
     document.getElementById('galeria').style.display = 'block';
+    document.getElementById('grid-txt-social').style.display = 'none';
   }
 }
 
