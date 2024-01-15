@@ -81,16 +81,19 @@ width: 23.44vw;
 color: #fff;
 }
 
-.txt-social{
+.txt-social {
 z-index: 10;
 position: relative;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
-top: 10rem;
+top: 50%;
 flex-wrap: wrap;
 align-content: center;
 align-items: center;
+max-width: 100%;
+margin: 0 auto;
+gap: 1rem;
 }
     
 /*************************Grid****************************/
@@ -127,13 +130,11 @@ align-items: center;
 }
 
 .grid-txt-social{
-    position: static;
-    display: block;
-
-    width: 54rem; 
-
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+position: static;
+display: block;
+width: 54rem; 
+margin-bottom: 2rem;
+margin-top: 2rem;
 }
 
 /*********************************************************/
@@ -179,7 +180,6 @@ justify-content: center;
 text-align: center;
 background-color: #060f18;
 box-sizing: border-box;
-display: flex;
 }
     
 .logo {
