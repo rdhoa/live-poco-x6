@@ -164,7 +164,7 @@ align-items: center;
 position: static;
     width: 54rem;
     margin: 0 auto;
-    padding-top: 5rem;
+
     padding-bottom: 5rem;
 }
 
@@ -333,6 +333,7 @@ color: #fff;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+padding-top: 5rem;
 }
 
 .time-container {
