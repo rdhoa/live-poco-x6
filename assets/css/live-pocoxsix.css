@@ -418,14 +418,16 @@ display: none;
 }
 
 .logo {
-position: relative;
-z-index: 5;
-top: 54%;
-align-items: flex-start;
-display: flex;
-flex-direction: column;
-width: 100%;
-right: auto;
+    position: relative;
+    z-index: 5;
+    top: 69%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    right: auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-header {
@@ -557,6 +559,13 @@ max-width: 100%;
     flex-direction: column;
 }
 
+.grid-txt-social {
+    position: static;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-bottom: 5rem;
+    padding: 1rem;
+}
 
 /**********************************************************************/
 .section01{
@@ -574,13 +583,13 @@ width: 100%;
 /**********************************************************************/
 
 #countdown {
-font-size: 4rem;
-color: #fff;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
 }
-
 .time-container {
 margin: 10px;
 text-align: center;
