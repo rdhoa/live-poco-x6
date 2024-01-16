@@ -38,11 +38,11 @@ display: none;
 }
 
 #galeria{
-    display: none;
+display: none;
 }
 
 #grid-txt-social{
-    display: block;
+display: block;
 }
 
 /*****************************Fonts*********************************/
@@ -126,18 +126,18 @@ margin: 0 auto;
 .galeria{margin-top: 5rem;}
 
 .grid-galeria {
-    display: grid;
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr;
-    background-position: center;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    width: 73rem;
-    margin: 0 auto;
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr;
+background-position: center;
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: center;
+width: 73rem;
+margin: 0 auto;
+padding-top: 1rem;
+padding-bottom: 5rem;
 }
 
 .grid-box-poco{
@@ -162,10 +162,10 @@ align-items: center;
 .grid-txt-social{
 
 position: static;
-    width: 54rem;
-    margin: 0 auto;
+width: 54rem;
+margin: 0 auto;
 
-    padding-bottom: 5rem;
+padding-bottom: 5rem;
 }
 
 .grid-box-img{
@@ -239,7 +239,7 @@ text-align: center;
 background-color: #060f18;
 box-sizing: border-box;
 }
-    
+
 .logo {
 position: relative;
 z-index: 5;
@@ -418,16 +418,16 @@ display: none;
 }
 
 .logo {
-    position: relative;
-    z-index: 5;
-    top: 69%;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    right: auto;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+position: relative;
+z-index: 5;
+top: 69%;
+display: flex;
+flex-direction: column;
+width: 100%;
+right: auto;
+align-content: center;
+justify-content: center;
+align-items: center;
 }
 
 .top-header {
@@ -469,14 +469,14 @@ gap: 1rem;
 }
 
 .txt-gradiant {
-    background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    padding: 1rem;
+background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2rem;
+text-align: center;
+margin: 0 auto;
+width: 100%;
+padding: 1rem;
 }
 
 .title-yellon {
@@ -488,12 +488,12 @@ text-align: center;
 }
 
 .title-preto-phone {
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 1.1;
-    text-align: center;
-    width: 100%;
-    color: #f8ce00;
+font-size: 3rem;
+font-weight: 700;
+line-height: 1.1;
+text-align: center;
+width: 100%;
+color: #f8ce00;
 }
 
 .p-white {
@@ -503,11 +503,11 @@ font-weight: 100;
 }
 
 .p-branco-phone {
-    font-size: 1.5rem;
-    margin-top: 0.94vw;
-    text-align: center;
-    width: 100%;
-    color: #fff;
+font-size: 1.5rem;
+margin-top: 0.94vw;
+text-align: center;
+width: 100%;
+color: #fff;
 }
 
 .title-white {
@@ -543,28 +543,28 @@ max-width: 100%;
 }
 
 .grid-galeria {
-    /* display: grid; */
-    /* max-width: 100%; */
-    /* grid-template-columns: 1fr 1fr; */
-    /* background-position: center; */
-    /* align-content: center; */
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    width: 100%;
-    /* margin: 0 auto; */
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+/* display: grid; */
+/* max-width: 100%; */
+/* grid-template-columns: 1fr 1fr; */
+/* background-position: center; */
+/* align-content: center; */
+justify-content: center;
+align-items: center;
+justify-items: center;
+width: 100%;
+/* margin: 0 auto; */
+padding-top: 1rem;
+padding-bottom: 5rem;
+display: flex;
+flex-direction: column;
 }
 
 .grid-txt-social {
-    position: static;
-    width: 100%;
-    /* margin: 0 auto; */
-    padding-bottom: 5rem;
-    padding: 1rem;
+position: static;
+width: 100%;
+/* margin: 0 auto; */
+padding-bottom: 5rem;
+padding: 1rem;
 }
 
 /**********************************************************************/
@@ -583,12 +583,12 @@ width: 100%;
 /**********************************************************************/
 
 #countdown {
-    font-size: 1.5rem;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 2rem;
+font-size: 1.5rem;
+color: #fff;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 2rem;
 }
 .time-container {
 margin: 10px;
@@ -607,18 +607,18 @@ color: #ffffff;
 }
 
 #Btn {
-    display: none;
-    position: fixed;
-    bottom: 50px;
-    right: 17px;
-    z-index: 9999;
-    border: none;
-    outline: none;
-    background-color: #000;
-    color: white;
-    cursor: pointer;
-    padding: 17px;
-    border-radius: 10px;
+display: none;
+position: fixed;
+bottom: 50px;
+right: 17px;
+z-index: 9999;
+border: none;
+outline: none;
+background-color: #000;
+color: white;
+cursor: pointer;
+padding: 17px;
+border-radius: 10px;
 }
 
 
