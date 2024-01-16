@@ -386,8 +386,13 @@ border-radius: 10px;
 #Btn:hover {
 background-color: #ffd401;
 }
+/*****************************Mobile*********************************/
+
 
 @media screen and (max-width:920px){
+
+#galeria{display: none;}
+#grid-txt-social{display: block;}
 
 
 a{text-decoration: none; color: #fff;}
@@ -412,18 +417,39 @@ max-width: 100%;
 display: none;
 }
 
-#galeria{display: none;}
-#grid-txt-social{display: block;}
-
-.txt-gradiant {
-background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 4rem;
-text-align: center;
-margin: 0 auto;
+.logo {
+position: relative;
+z-index: 5;
+top: 54%;
+align-items: flex-start;
+display: flex;
+flex-direction: column;
 width: 100%;
+right: auto;
 }
+
+.top-header {
+align-items: center;
+color: #191919;
+display: flex;
+font-weight: 400;
+justify-content: space-between;
+line-height: 1.13vw;
+padding: 3vw 2.88vw 0 2.17vw;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 9;
+}
+
+.top-header .header-logo {
+background-image: url(https://i05.appmifile.com/events/logos/orange-logo.png);
+background-size: 100%;
+display: inline-block;
+height: 10vw;
+width: 10vw;
+}
+
 
 .txt-social {
 z-index: 10;
@@ -440,8 +466,101 @@ margin: 0 auto;
 gap: 1rem;
 }
 
+.txt-gradiant {
+    background: linear-gradient(to right, #fff4bb 10%, #ffd91d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+.title-yellon {
+color: #f8ce00;
+font-size: 2rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.title-preto-phone {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    width: 100%;
+    color: #f8ce00;
+}
+
+.p-white {
+color: #fff;
+font-size: 1rem;
+font-weight: 100;
+}
+
+.p-branco-phone {
+    font-size: 1.5rem;
+    margin-top: 0.94vw;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.title-white {
+color: #fff;
+font-size: 1.3rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+/***********************************************************************/
+
+.grid-txt-box {
+z-index: 13;
+position: relative;
+top: 24rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+}
+
+.grid-txt-box-tree {
+z-index: 14;
+position: relative;
+top: 12rem;
+left: 0;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+text-align: left;
+width: 100%;
+max-width: 100%;
+}
+
+.grid-galeria {
+    /* display: grid; */
+    /* max-width: 100%; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* background-position: center; */
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**********************************************************************/
 .section01{
-background-image: url(/assets/media/01-mobile.jpg);
+background-image: url(../media/01-mobile.jpg);
 background-size: cover;
 box-sizing: border-box;
 flex-direction: column;
@@ -450,6 +569,9 @@ padding: 0 8.98vw;
 position: relative;
 width: 100%;
 }
+
+
+/**********************************************************************/
 
 #countdown {
 font-size: 4rem;
@@ -474,5 +596,22 @@ color: #f8ce00;
 font-size: 0.8em;
 color: #ffffff;
 }
+
+#Btn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 17px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+
 
 }
