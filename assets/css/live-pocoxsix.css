@@ -215,7 +215,7 @@ width: 2.34vw;
 }
 
 .section01 {
-background-image: url(/assets/media/capa.png);
+background-image: url(../media/capa.png);
 background-position: 50%;
 background-size: cover;
 box-sizing: border-box;
