@@ -102,7 +102,7 @@ position: relative;
 display: flex;
 flex-direction: row;
 justify-content: center;
-top: 50%;
+top: 10rem;
 flex-wrap: wrap;
 align-content: center;
 align-items: center;
@@ -152,11 +152,12 @@ align-items: center;
 }
 
 .grid-txt-social{
+
 position: static;
-display: block;
-width: 54rem; 
-margin-bottom: 2rem;
-margin-top: 2rem;
+    width: 54rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .grid-box-img{
@@ -234,13 +235,13 @@ box-sizing: border-box;
 .logo {
 position: relative;
 z-index: 5;
-top: -25rem;
-right: 30rem;
+top: 30%;
+right: 2rem;
 align-items: flex-start;
 display: flex;
 flex-direction: column;
 width: 29rem;
-margin: 0 auto;
+
 }
 
 .email {
