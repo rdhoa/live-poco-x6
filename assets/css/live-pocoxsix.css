@@ -125,11 +125,19 @@ margin: 0 auto;
 
 .galeria{margin-top: 5rem;}
 
-.grid-galeria{
-display: grid;
-max-width: 100%;
-grid-template-columns: 1fr 1fr;
-background-position: center;
+.grid-galeria {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 73rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
 }
 
 .grid-box-poco{
