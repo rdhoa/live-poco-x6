@@ -386,8 +386,10 @@ border-radius: 10px;
 #Btn:hover {
 background-color: #ffd401;
 }
-/*****************************Mobile*********************************/
 
+
+
+/*****************************Mobile*********************************/
 
 @media screen and (max-width:920px){
 
@@ -500,6 +502,7 @@ color: #f8ce00;
 color: #fff;
 font-size: 1rem;
 font-weight: 100;
+text-align: center;
 }
 
 .p-branco-phone {
@@ -516,6 +519,12 @@ font-size: 1.3rem;
 margin-top: 1rem;
 margin-bottom: 1rem;
 }
+
+.top-header-right{
+    font-size: 1rem;
+}
+
+
 /***********************************************************************/
 
 .grid-txt-box {
