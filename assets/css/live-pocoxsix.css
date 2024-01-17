@@ -387,15 +387,16 @@ border-radius: 10px;
 background-color: #ffd401;
 }
 
-
+.grid-box-mob{display: none;}
 
 /*****************************Mobile*********************************/
 
 @media screen and (max-width:920px){
 
+.grid-box-poco{display: none;}
+.grid-box-mob{display: block;}
 #galeria{display: none;}
 #grid-txt-social{display: block;}
-
 
 a{text-decoration: none; color: #fff;}
 button{border: none;}
@@ -453,7 +454,6 @@ display: inline-block;
 height: 10vw;
 width: 10vw;
 }
-
 
 .txt-social {
 z-index: 10;
@@ -520,36 +520,19 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 }
 
-.top-header-right{
-    font-size: 1rem;
-}
+.top-header-right{font-size: 1rem;}
 
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff;
+font-size: 0.8rem;
+}
 
 /***********************************************************************/
-
-.grid-txt-box {
-z-index: 13;
-position: relative;
-top: 24rem;
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-}
-
-.grid-txt-box-tree {
-z-index: 14;
-position: relative;
-top: 12rem;
-left: 0;
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-text-align: left;
-width: 100%;
-max-width: 100%;
-}
 
 .grid-galeria {
 /* display: grid; */
@@ -576,7 +559,33 @@ padding-bottom: 5rem;
 padding: 1rem;
 }
 
+.grid-box-img{
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: 1fr;
+gap: 10px;  
+}
+
+.container-two {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+padding: 1rem;
+}
+
+.box {
+position: relative;
+overflow: hidden;
+}
+
+.box img {
+width: 100%;
+height: auto;
+display: block;
+}
+
 /**********************************************************************/
+
 .section01{
 background-image: url(../media/01-mobile.jpg);
 background-size: cover;
@@ -588,7 +597,6 @@ position: relative;
 width: 100%;
 }
 
-
 /**********************************************************************/
 
 #countdown {
@@ -599,6 +607,7 @@ flex-wrap: wrap;
 justify-content: center;
 padding-top: 2rem;
 }
+
 .time-container {
 margin: 10px;
 text-align: center;
