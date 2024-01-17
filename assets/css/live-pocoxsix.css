@@ -531,7 +531,16 @@ text-align: center;
 color: #fff;
 font-size: 0.8rem;
 }
-
+.text-overlay-tree {
+    position: absolute;
+    top: 56%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    font-size: 0.5875rem;
+    width: 10.5rem;
+}
 /***********************************************************************/
 
 .grid-galeria {
